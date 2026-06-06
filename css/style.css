@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: "Yu Gothic", "Meiryo", sans-serif;
+  background: #111;
+  color: #eee;
+  line-height: 1.7;
+}
+
+.site-header {
+  padding: 40px 24px;
+  background: #1b1b1b;
+  border-bottom: 1px solid #333;
+}
+
+.site-header h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+}
+
+.site-header p {
+  margin: 0;
+  color: #aaa;
+}
+
+.site-main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.menu-section h2,
+.content-section h2 {
+  margin-top: 0;
+  border-left: 4px solid #8aa4ff;
+  padding-left: 12px;
+}
+
+.menu-list {
+  display: grid;
+  gap: 16px;
+}
+
+.menu-card {
+  display: block;
+  padding: 20px;
+  background: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 10px;
+  color: #eee;
+  text-decoration: none;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-2px);
+  border-color: #8aa4ff;
+}
+
+.menu-title {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu-description {
+  display: block;
+  margin-top: 4px;
+  color: #aaa;
+}
+
+.back-link {
+  color: #8aa4ff;
+}
+
+.site-footer {
+  padding: 24px;
+  color: #777;
+  text-align: center;
+  border-top: 1px solid #333;
+}
