@@ -13,6 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const html = await response.text();
       element.innerHTML = html;
+
+      // ヘッダー読み込み後に、ページごとの説明文を反映する
+      const pageDescription = document.body.getAttribute("data-page-description");
+      const descriptionElement = document.getElementById("page-description");
+
+      if (descriptionElement && pageDescription) {
+        descriptionElement.textContent = pageDescription;
+      }
     } catch (error) {
       console.error(error);
       element.innerHTML = "<p>共通パーツの読み込みに失敗しました。</p>";
