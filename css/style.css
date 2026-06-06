@@ -95,3 +95,14 @@ body {
 .include-footer {
   min-height: 80px;
 }
+
+/* 読み込み中も失敗時も、余計な文字を出さず場所だけ確保する */
+.include-header.is-loading,
+.include-header.is-error {
+  min-height: 150px;
+}
+
+.include-footer.is-loading,
+.include-footer.is-error {
+  min-height: 80px;
+}
