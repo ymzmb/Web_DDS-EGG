@@ -7,15 +7,14 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <h1>ページA</h1>
-    <p>ここは最初のテストページ。</p>
-  </header>
+  <div data-include="parts/header.html"></div>
 
   <main class="site-main">
     <section class="content-section">
-      <h2>ページAの内容</h2>
-      <p>ここにあとで計算式、攻略メモ、検証結果などを書いていく。</p>
+      <h2>ページA</h2>
+
+      <p>ここは最初のテストページ。</p>
+      <p>あとで計算式、攻略メモ、検証結果などを書いていく。</p>
 
       <p>
         <a href="index.html" class="back-link">トップページに戻る</a>
@@ -24,6 +23,7 @@
   </main>
 
   <div data-include="parts/footer.html"></div>
+
   <script src="js/include.js"></script>
 </body>
 </html>

@@ -28,6 +28,15 @@ body {
   padding: 40px 24px;
 }
 
+.site-title-link {
+  color: #eee;
+  text-decoration: none;
+}
+
+.site-title-link:hover {
+  color: #8aa4ff;
+}
+
 .menu-section h2,
 .content-section h2 {
   margin-top: 0;
